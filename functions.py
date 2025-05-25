@@ -1,6 +1,6 @@
 import os
 
-FILEPATH = r"C:\Users\ad17730\OneDrive - Lumen\Python\Python udemy\Projects_local\To-Do App\todos.txt"
+FILEPATH = r"C:\Users\ad17730\OneDrive - Lumen\Python\Python udemy\Git folders\Streamlit-Web-App\todos.txt"
 
 def check_filepath():
     if not os.path.exists(FILEPATH):
