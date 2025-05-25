@@ -3,6 +3,9 @@ import functions as fn
 
 todos = fn.get_todos()
 
+if "new_todo" not in st.session_state:
+    st.session_state["new_todo"] = ""
+    
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
     todos.append(todo)
